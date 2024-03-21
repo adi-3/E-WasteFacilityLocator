@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facility Search</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"> <!-- Adjust the path based on your project structure -->
+    <!-- Add any additional CSS files or stylesheets here -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">E-Waste Facility Locator</a>
+            <!-- Navigation Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/dashboard">Dashboard</a>
+                </li>
+            </ul>
+            <!-- Logout Button -->
+            <a href="/auth/logout" class="btn btn-secondary ml-2">Logout</a>
+        </div>
+    </nav>
+
+    <!-- Search Bar Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form action="/search" method="POST"> <!-- Adjust the action attribute based on your backend route -->
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" name="location" placeholder="Enter your location">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Catalog Section (Dummy Information) -->
+    <div class="container mt-4">
+        <h2>Facility Catalog</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/images/img1.jpg" class="card-img-top" alt="Facility Image">
+                    <div class="card-body">
+                        <h5 class="card-title">GreenTech Recycling</h5>
+                        <p class="card-text">123 Recycling St, Cityville</p>
+                        <p class="card-text">Contact: (555) 123-4567</p>
+                        <p class="card-text">Open Hours: Mon-Fri: 8am-5pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/images/img2.jpg" class="card-img-top" alt="Facility Image">
+                    <div class="card-body">
+                        <h5 class="card-title">EcoFriendly Disposal</h5>
+                        <p class="card-text">456 Eco Ave, Townsville</p>
+                        <p class="card-text">Contact: (555) 987-6543</p>
+                        <p class="card-text">Open Hours: Mon-Sat: 9am-6pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/images/img3.jpg" class="card-img-top" alt="Facility Image">
+                    <div class="card-body">
+                        <h5 class="card-title">CleanTech Solutions</h5>
+                        <p class="card-text">789 Recycle Rd, Villagetown</p>
+                        <p class="card-text">Contact: (555) 567-8901</p>
+                        <p class="card-text">Open Hours: Mon-Sun: 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Dummy Card 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/images/img4.jpg" class="card-img-top" alt="Facility Image"> <!-- Placeholder image -->
+                    <div class="card-body">
+                        <h5 class="card-title">Recycle Hub</h5>
+                        <p class="card-text">789 Recycling Blvd, Green City</p>
+                        <p class="card-text">Contact: (555) 111-2222</p>
+                        <p class="card-text">Open Hours: Mon-Sat: 9am-7pm</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Dummy Card 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/images/img5.jpg" class="card-img-top" alt="Facility Image"> <!-- Placeholder image -->
+                    <div class="card-body">
+                        <h5 class="card-title">EcoRecycle Solutions</h5>
+                        <p class="card-text">123 Eco St, Natureville</p>
+                        <p class="card-text">Contact: (555) 333-4444</p>
+                        <p class="card-text">Open Hours: Mon-Fri: 8am-6pm, Sat: 9am-5pm</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Dummy Card 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/assets/images/img6.jpg" class="card-img-top" alt="Facility Image"> <!-- Placeholder image -->
+                    <div class="card-body">
+                        <h5 class="card-title">Green Disposal Co.</h5>
+                        <p class="card-text">456 Greenway Ave, Leafy Town</p>
+                        <p class="card-text">Contact: (555) 555-6666</p>
+                        <p class="card-text">Open Hours: Mon-Sun: 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <span class="text-light">Copyright &copy; 2024 E-Waste Facility Locator</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS files (if needed) -->
+    <script src="/assets/js/bootstrap.bundle.min.js"></script> <!-- Adjust the path based on your project structure -->
+    <!-- Add any additional JavaScript files or scripts here -->
+</body>
+
+</html>
