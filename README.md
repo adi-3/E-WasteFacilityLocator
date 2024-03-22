@@ -19,10 +19,6 @@ An app dedicated to make it easier for users to search and locate their nearest 
 
 ## Installation
 
-##### Clone the latest Repository
-
-`git clone https://github.com/rahulsups/nodejs-auth.git`
-
 ##### Into the project directory
 
 `cd nodejs-auth`
